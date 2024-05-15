@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIc-Tack-Toe</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <button id="resetbtn" onclick="resetGame()">Reset Game</button>
+    <button id="NewGamebtn" onclick="NewGame()">New Game</button>
+</div>
+<h1 style="margin-bottom: 6%; color: rgba(134, 251, 251, 0.686); font-family:harrington,papyrus, fantasy;"> <span
+    class="auto-type"></span></h1>
+    <div class="container">
+        <div4 class="contain">
+            <button class="contains cell"></button>
+            <button class="contains cell"></button>
+            <button class="contains cell"></button>
+        </div4>
+        <div class="contain">
+            <button class="contains cell"></button>
+            <button class="contains cell"></button>
+            <button class="contains cell"></button>
+        </div>
+        <div class="contain">
+            <button class="contains cell"></button>
+            <button class="contains cell"></button>
+            <button class="contains cell"></button>
+            
+        </div>
+
+    </div>
+    
+    <div class="msg"><label id="mssg"></label></div>
+    <div>
+    
+</body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed(".auto-type", {
+        strings: ["Welcome to my Game-world", "play smooth and fare 😊", "Tic-Toc -Toe"],
+        typeSpeed: 80,
+        backSpeed: 50,
+        loop: true
+    });
+
+    // $(document).ready(function(){
+    //     $('#resetbtn').click(funcction(){
+    //         location.reload();
+    //     })
+    // })
+    $(document).ready(function () {
+        $('#resetbtn').on('click', function (event) {
+            event.preventDefault();
+            location.reload(true);
+        });
+        $(document).ready(function () {
+            $('#NewGamebtn').on('click', function (event) {
+                event.preventDefault();
+                location.reload(true);
+            });
+        });
+    });
+</script>
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,64 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000c0;
+}
+
+body {
+    padding: 3%;
+    padding-left: 40%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,0.7204131652661064) 0%, rgba(29,161,253,0.7456232492997199) 48%, rgba(252,176,69,0.7792366946778712) 100%);
+    color: aliceblue;
+
+}
+
+.container {
+    background-color: rgba(170, 170, 170, 0.358);
+    border: 4px solid rgba(255, 255, 255, 0.753);
+    border-radius: 12px;
+    display: flex;
+    gap: 3px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.contains {
+    border-radius: 30px;
+    margin: 50px;
+    height: 100px;
+    background-color: rgba(144, 136, 136, 0.388);
+    width: 100px;
+    border: none;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.463),
+        inset 5px 5px 20px rgba(0, 0, 0, 0.463);
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+
+}
+
+#resetbtn,#NewGamebtn {
+    margin-left: 25px;
+    height: 50px;
+    width: 120px;
+
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 9px;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 0.7204131652661064) 0%, rgba(29, 161, 253, 0.7456232492997199) 48%, rgba(252, 176, 69, 0.7792366946778712) 100%);
+}
+#mssg{
+    font-size: 50px;
+    font-weight: 700;
+}
+.msg{
+    margin: 7%;
+
+}
